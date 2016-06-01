@@ -1,0 +1,3 @@
+#Destination of backups
+BACKUP_LOCATION='/Volumes/osx_backup'
+
