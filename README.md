@@ -12,7 +12,7 @@ In `backup.conf` you can set any of variables
 
  Variable | Meaning | Default 
  --- | --- | --- 
- SCRIPT_NAME | Name used for logging into syslog and backup folder name | `pom.osx.backup` 
+ SCRIPT\_NAME | Name used for logging into syslog and backup folder name | `pom.osx.backup` 
  RSYNC | path and arguments to rsync | `/usr/bin/rsync -vaER --progress --exclude-from=$DIR/excludes.rsync --stats --delete ` 
  LOGGER | path to logger if you don't want logging leave empty | `"/usr/bin/logger -s -t $SCRIPT_NAME "` 
  BACKUP\_LOCATION | path to destination (folder/drive/ssh) of backup | `/Volumes/osx_backup`
