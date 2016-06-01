@@ -9,6 +9,7 @@ Script uses rsync to backup files in `includes.conf`, my recommendation is to us
 In `excludes.rsync` you can configure rsync exclusions (filters applied to all files) eg. exclude .Trashes folders. 
 
 In `backup.conf` you can set any of variables 
+
  Variable | Meaning | Default 
  --- | --- | --- 
  SCRIPT_NAME | Name used for logging into syslog and backup folder name | `pom.osx.backup` 
